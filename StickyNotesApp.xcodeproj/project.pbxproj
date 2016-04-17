@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E01A4591CC44BA2001B6CBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E01A4581CC44BA2001B6CBD /* main.m */; };
+		2E01A45C1CC44BA2001B6CBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E01A45B1CC44BA2001B6CBD /* AppDelegate.m */; };
+		2E01A4641CC44BA2001B6CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E01A4631CC44BA2001B6CBD /* Assets.xcassets */; };
+		2E01A4781CC44CFE001B6CBD /* NoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E01A4721CC44CFE001B6CBD /* NoteView.m */; };
+		2E01A4791CC44CFE001B6CBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E01A4751CC44CFE001B6CBD /* ViewController.m */; };
+		2E01A47C1CC44D5D001B6CBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E01A47A1CC44D5D001B6CBD /* LaunchScreen.storyboard */; };
+		2E01A47D1CC44D5D001B6CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E01A47B1CC44D5D001B6CBD /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E01A4541CC44BA2001B6CBD /* StickyNotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickyNotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E01A4581CC44BA2001B6CBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E01A45A1CC44BA2001B6CBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E01A45B1CC44BA2001B6CBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E01A4631CC44BA2001B6CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E01A4681CC44BA2001B6CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E01A4711CC44CFE001B6CBD /* NoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteView.h; sourceTree = "<group>"; };
+		2E01A4721CC44CFE001B6CBD /* NoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteView.m; sourceTree = "<group>"; };
+		2E01A4741CC44CFE001B6CBD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E01A4751CC44CFE001B6CBD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E01A47A1CC44D5D001B6CBD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E01A47B1CC44D5D001B6CBD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E01A4511CC44BA2001B6CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E01A44B1CC44BA2001B6CBD = {
+			isa = PBXGroup;
+			children = (
+				2E01A4561CC44BA2001B6CBD /* StickyNotesApp */,
+				2E01A4551CC44BA2001B6CBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E01A4551CC44BA2001B6CBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E01A4541CC44BA2001B6CBD /* StickyNotesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E01A4561CC44BA2001B6CBD /* StickyNotesApp */ = {
+			isa = PBXGroup;
+			children = (
+				2E01A46E1CC44CFE001B6CBD /* View */,
+				2E01A4731CC44CFE001B6CBD /* Controller */,
+				2E01A45A1CC44BA2001B6CBD /* AppDelegate.h */,
+				2E01A45B1CC44BA2001B6CBD /* AppDelegate.m */,
+				2E01A4631CC44BA2001B6CBD /* Assets.xcassets */,
+				2E01A4681CC44BA2001B6CBD /* Info.plist */,
+				2E01A4571CC44BA2001B6CBD /* Supporting Files */,
+			);
+			path = StickyNotesApp;
+			sourceTree = "<group>";
+		};
+		2E01A4571CC44BA2001B6CBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E01A4581CC44BA2001B6CBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E01A46E1CC44CFE001B6CBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E01A47A1CC44D5D001B6CBD /* LaunchScreen.storyboard */,
+				2E01A47B1CC44D5D001B6CBD /* Main.storyboard */,
+				2E01A4711CC44CFE001B6CBD /* NoteView.h */,
+				2E01A4721CC44CFE001B6CBD /* NoteView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E01A4731CC44CFE001B6CBD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E01A4741CC44CFE001B6CBD /* ViewController.h */,
+				2E01A4751CC44CFE001B6CBD /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E01A4531CC44BA2001B6CBD /* StickyNotesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E01A46B1CC44BA2001B6CBD /* Build configuration list for PBXNativeTarget "StickyNotesApp" */;
+			buildPhases = (
+				2E01A4501CC44BA2001B6CBD /* Sources */,
+				2E01A4511CC44BA2001B6CBD /* Frameworks */,
+				2E01A4521CC44BA2001B6CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickyNotesApp;
+			productName = StickyNotesApp;
+			productReference = 2E01A4541CC44BA2001B6CBD /* StickyNotesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E01A44C1CC44BA2001B6CBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Javier Manzo";
+				TargetAttributes = {
+					2E01A4531CC44BA2001B6CBD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2E01A44F1CC44BA2001B6CBD /* Build configuration list for PBXProject "StickyNotesApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E01A44B1CC44BA2001B6CBD;
+			productRefGroup = 2E01A4551CC44BA2001B6CBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E01A4531CC44BA2001B6CBD /* StickyNotesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E01A4521CC44BA2001B6CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E01A47D1CC44D5D001B6CBD /* Main.storyboard in Resources */,
+				2E01A4641CC44BA2001B6CBD /* Assets.xcassets in Resources */,
+				2E01A47C1CC44D5D001B6CBD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E01A4501CC44BA2001B6CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E01A45C1CC44BA2001B6CBD /* AppDelegate.m in Sources */,
+				2E01A4781CC44CFE001B6CBD /* NoteView.m in Sources */,
+				2E01A4591CC44BA2001B6CBD /* main.m in Sources */,
+				2E01A4791CC44CFE001B6CBD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E01A4691CC44BA2001B6CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E01A46A1CC44BA2001B6CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E01A46C1CC44BA2001B6CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StickyNotesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.javiermanzo.StickyNotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E01A46D1CC44BA2001B6CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StickyNotesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.javiermanzo.StickyNotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E01A44F1CC44BA2001B6CBD /* Build configuration list for PBXProject "StickyNotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E01A4691CC44BA2001B6CBD /* Debug */,
+				2E01A46A1CC44BA2001B6CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E01A46B1CC44BA2001B6CBD /* Build configuration list for PBXNativeTarget "StickyNotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E01A46C1CC44BA2001B6CBD /* Debug */,
+				2E01A46D1CC44BA2001B6CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E01A44C1CC44BA2001B6CBD /* Project object */;
+}
